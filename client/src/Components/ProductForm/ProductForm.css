@@ -1,0 +1,46 @@
+*{
+font-size: 24px;
+font-family: 'Josefin Sans',sans-serif;
+font-weight: 300;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 24px; */
+    /* max-width: 1200px; */
+   background-color: aqua;
+   
+}
+
+.form-group {
+    display: flex;
+    padding:20px;
+   
+}
+
+.product-id {
+    margin-right : 12px;
+} 
+
+input {
+    height: 50px;
+    width: 200px;
+    border-radius: 8px;
+    padding: 10px;
+    border: none;
+}
+.selling-price {
+    margin-right: 12px;
+}
+
+.btn > button {
+    margin-left: 16px;
+    height: 72px;
+    width: 100px;
+    cursor: pointer;
+    color: blueviolet;
+    border-radius: 8px;
+    border: none;
+    
+}
